@@ -146,6 +146,7 @@ a {
     width: 605px;
     margin: 5px;
     background: aqua;
+    border-radius: 10px;
     border: #606061;
 }
 
