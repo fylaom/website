@@ -67,6 +67,10 @@ a {
     -o-transition: all 300ms;
 }
 
+#wallpaper {
+    padding-bottom: 7vh;
+}
+
 
 /* HOME **************************************************************/
 
