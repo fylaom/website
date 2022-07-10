@@ -90,10 +90,6 @@ img,
     pointer-events: none;
 }
 
-#nochnichtbildfertig {
-    height: 20vw;
-}
-
 #nochnichttextfertig {
     margin-top: 30px;
     font-size: 30px;
@@ -525,8 +521,5 @@ footer p {
         font-size: 4vw;
         margin: -80vw 5vw 0 5vw;
         line-height: 100%
-    }
-    .telefon {
-        display: none;
     }
 }*/
