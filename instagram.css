@@ -65,7 +65,6 @@ img {
     background-image: url(Bilder/Hintergrund\ Instagram.svg);
     background-position: center 0;
     background-size: cover;
-    height: 2200px;
     position: static;
 }
 
@@ -124,9 +123,6 @@ footer p {
 /* MEDIA QUERIES **************************************************************/
 
 @media screen and (min-width:2000px) {
-    #home {
-        height: 2700px;
-    }
     #fylaom {
         margin: 200px -10px 0px 23%;
         width: 70%;

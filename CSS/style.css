@@ -101,7 +101,6 @@ img,
     background-image: url(../Bilder/Hintergrund.svg);
     background-position: center 0;
     background-size: cover;
-    height: 4200px;
     position: static;
 }
 
@@ -328,18 +327,12 @@ footer p {
     .text {
         font-size: 45px;
     }
-    #home {
-        height: 4400px;
-    }
     .telefon {
         display: none;
     }
 }
 
 @media screen and (max-width:1600px) {
-    #home {
-        height: 3500px;
-    }
     #home h1 {
         margin: -15px auto 0px auto;
         padding: 20vw 0 0 0;
@@ -360,9 +353,6 @@ footer p {
 @media screen and (max-width:1100px) {
     #menu {
         display: grid;
-    }
-    #home {
-        height: 3500px;
     }
     #home h1 {
         margin: -15px auto 0px auto;
@@ -389,9 +379,6 @@ footer p {
 @media screen and (max-width:800px) {
     #menu {
         display: grid;
-    }
-    #home {
-        height: 2400px;
     }
     #home h1 {
         margin: -15px auto 0px auto;
@@ -444,9 +431,6 @@ footer p {
     #menu {
         display: grid;
     }
-    #home {
-        height: 3500px;
-    }
     #home h1 {
         margin: -2vh auto 0px auto;
         padding: 40vw 0 0 0;
@@ -475,9 +459,6 @@ footer p {
 @media screen and (max-width:450px) {
     #menu {
         display: grid;
-    }
-    #home {
-        height: 3500px;
     }
     #home h1 {
         margin: -2vh auto 0px auto;
