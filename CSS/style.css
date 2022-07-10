@@ -51,6 +51,7 @@ p {
 #email {
     font-size: 30px;
     display: inline-block;
+    padding-bottom: 7vh;
 }
 
 #email:hover {
@@ -223,17 +224,19 @@ img:hover {
 }
 
 #tele1 {
-    width: 16%;
-    margin: 141px 0px 0px -154px;
+    width: 30%;
+    margin: 0px 0px 0px 0px;
     position: absolute;
     z-index: 1;
+    padding-bottom: 7vh;
 }
 
 #tele2 {
     width: 30%;
-    margin: 121px 0px 0px -345px;
+    margin: 0px 0px 0px 0px;
     position: absolute;
     z-index: 0;
+    padding-bottom: 7vh;
 }
 
 #tele1:hover {
