@@ -1,0 +1,533 @@
+@font-face {
+    font-family: 'bowlby_one_sc';
+    src: url('webfonts/bowlbyonesc-webfont.eot');
+    src: url('webfonts/bowlbyonesc-webfont.eot?#iefix') format('embedded-opentype'), url('webfonts/bowlbyonesc-webfont.woff2') format('woff2'), url('webfonts/bowlbyonesc-webfont.woff') format('woff'), url('webfonts/bowlbyonesc-webfont.ttf') format('truetype'), url('webfonts/bowlbyonesc-webfont.svg#bowlby_one_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: none;
+    color: #433825;
+    font-size: 82px;
+    font-family: Bowlby One SC;
+    list-style-type: none;
+    margin: 400px auto 0px auto;
+}
+
+h3 {
+    text-decoration: none;
+    color: #433825;
+    font-size: 82px;
+    font-family: Bowlby One SC;
+    list-style-type: none;
+    margin: 250px auto 0px auto;
+}
+
+a {
+    color: #463925;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: Bowlby One SC;
+    list-style-type: none;
+    color: #433825;
+    margin: 0px 275px 0px 275px;
+}
+
+.ged {
+    margin: -20px 0px 0px 0px;
+    font-size: 36px;
+}
+
+.text {
+    font-size: 36px;
+}
+
+#email {
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 7vh;
+}
+
+#email:hover {
+    transform: scale(1.05);
+}
+
+#insta,
+#discord,
+#mail,
+#twitter {
+    width: 3vw;
+    height: 6vh;
+    object-fit: contain;
+}
+
+#home,
+li,
+img,
+#email,
+.pic3 {
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transion: all 300ms;
+    -o-transition: all 300ms;
+}
+
+.nochnicht {
+    display: none;
+}
+
+
+/* HOME **************************************************************/
+
+.nochnichtfertig {
+    padding-top: 25vh;
+    pointer-events: none;
+}
+
+#nochnichttextfertig {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#home {
+    background-image: url(../Bilder/Hintergrund.svg);
+    background-position: center 0;
+    background-size: cover;
+    position: static;
+}
+
+#home h1 {
+    font-family: Bowlby One SC;
+    color: #433825;
+    margin: -15px auto 0px auto;
+    padding: 22vw 0 0 0;
+    font-size: 125px;
+    letter-spacing: 10px;
+}
+
+img:hover {
+    transform: translateY(5px);
+}
+
+#home ul {
+    padding-inline-start: 0;
+}
+
+#home ul li {
+    width: 4vh;
+    height: 10vw;
+    display: inline-block;
+    margin: 5vh 3vw 0 2.4vw;
+    text-align: center;
+}
+
+.pic {
+    margin: 0px 170px 200px -110px;
+    width: 25vw;
+}
+
+.pic2 {
+    margin: 176px -20px -40px -100px;
+    width: 20vw;
+}
+
+.pic3 {
+    margin: 150px 0px 0px 0px;
+    width: 20vw;
+}
+
+.pic3:hover {
+    animation: rotate 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    5% {
+        transform: rotate(18deg);
+    }
+    10% {
+        transform: rotate(36deg);
+    }
+    15% {
+        transform: rotate(54deg);
+    }
+    20% {
+        transform: rotate(72deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    30% {
+        transform: rotate(108deg);
+    }
+    35% {
+        transform: rotate(126deg);
+    }
+    40% {
+        transform: rotate(144deg);
+    }
+    45% {
+        transform: rotate(162deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    55% {
+        transform: rotate(198deg);
+    }
+    60% {
+        transform: rotate(216deg);
+    }
+    65% {
+        transform: rotate(234deg);
+    }
+    70% {
+        transform: rotate(252deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    80% {
+        transform: rotate(288deg);
+    }
+    85% {
+        transform: rotate(306deg);
+    }
+    90% {
+        transform: rotate(324deg);
+    }
+    95% {
+        transform: rotate(342deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.pic4 {
+    margin: 20px 0px 0px 0px;
+}
+
+.telefon {
+    margin: 0px 0px 0px 0px;
+    position: relative;
+}
+
+#tele1 {
+    height: 15vw;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    padding-bottom: 7vh;
+    pointer-events: none;
+}
+
+#tele2 {
+    height: 15vw;
+    margin: 0;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 7vh;
+}
+
+#tele1:hover {
+    transform: none;
+}
+
+#tele2:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+/* FOOTER **************************************************************/
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #433825;
+    bottom: 0;
+}
+
+footer p {
+    font-family: Bowlby One SC;
+    font-size: 20px;
+    color: #CABA9F;
+    padding-top: 25px;
+    margin: 0;
+}
+
+
+/* MEDIA QUERIES **************************************************************/
+
+@media screen and (min-width:2000px) {
+    #home h1 {
+        margin: -15px auto 0px auto;
+        padding: 24vw 0 0 0;
+        font-size: 150px;
+        letter-spacing: 10px;
+    }
+    #home ul li {
+        display: inline-block;
+        margin: 2vh 3.3vw 0 2.3vw;
+        text-align: center;
+    }
+    h2 {
+        text-decoration: none;
+        color: #433825;
+        font-size: 100px;
+        font-family: Bowlby One SC;
+        list-style-type: none;
+        letter-spacing: 5px;
+        margin: 400px auto 0px auto;
+    }
+    .text {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    #home h1 {
+        margin: -15px auto 0px auto;
+        padding: 20vw 0 0 0;
+        font-size: 120px;
+        letter-spacing: 10px;
+    }
+    #home ul li {
+        display: inline-block;
+        margin: 5vh 2.2vw 0 2.2vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    #home h1 {
+        margin: -15px auto 0px auto;
+        padding: 23vw 0 0 0;
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+    #insta,
+    #discord,
+    #mail,
+    #twitter {
+        width: 4.5vw;
+        height: 3.5vh;
+        object-fit: contain;
+    }
+    #home ul li {
+        display: inline-block;
+        margin: 3vh 2.5vw 0 1.4vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #home h1 {
+        margin: -15px auto 0px auto;
+        padding: 24vw 0 0 0;
+        font-size: 50px;
+        letter-spacing: 10px;
+    }
+    h2 {
+        font-size: 45px;
+        margin: 50vh auto 0px auto;
+    }
+    h3 {
+        font-size: 45px;
+        margin: 20vh auto 0px auto;
+    }
+    .text {
+        font-size: 25px;
+    }
+    #email {
+        font-size: 25px;
+    }
+    p {
+        margin: 0px 10vw -1vh 10vw;
+    }
+    #insta,
+    #discord,
+    #mail,
+    #twitter {
+        width: 4vw;
+        height: 3vh;
+        object-fit: contain;
+    }
+    #home ul li {
+        display: inline-block;
+        margin: 1vh 1.4vw 0 1.3vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #home h1 {
+        margin: -15px auto 0px auto;
+        padding: 24vw 0 0 0;
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    #insta,
+    #discord,
+    #mail,
+    #twitter {
+        width: 4vw;
+        height: 3vh;
+        object-fit: contain;
+    }
+    #home ul li {
+        display: inline-block;
+        margin: 3vh 0.7vw 0 0.9vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #home h1 {
+        margin: -2vh auto 0px auto;
+        font-size: 35px;
+        letter-spacing: 10px;
+    }
+    h2 {
+        font-size: 35px;
+        margin: 50vh auto 0px auto;
+    }
+    h3 {
+        font-size: 35px;
+        margin: 20vh auto 0px auto;
+    }
+    .text {
+        font-size: 20px;
+    }
+    #email {
+        font-size: 15px;
+    }
+    p {
+        margin: 0px 10vw 0px 10vw;
+    }
+    .pic {
+        margin: 4vh 30vw 0 10vw;
+        width: 50vw;
+    }
+    .pic2 {
+        margin: 1vh -30vw 0 10vw;
+        width: 40vw;
+    }
+    .pic3 {
+        margin: 10vw 10vw 0px 10vw;
+        width: 40vw;
+    }
+    #home ul li {
+        display: inline-block;
+        margin: 5vh 1.5vw 0 1.2vw;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:380px) {
+    #home h1 {
+        padding: 15vh 0 0 0;
+        font-size: 35px;
+        letter-spacing: 10px;
+    }
+    #insta,
+    #discord,
+    #mail,
+    #twitter {
+        width: 6vw;
+        height: 5vh;
+        object-fit: contain;
+    }
+    #home ul li {
+        display: inline-block;
+        margin: 1vh 1.5vw 0 1vw;
+        text-align: center;
+    }
+}
+
+
+/*@media screen and (max-width:300px) {
+    html,
+    body {
+        height: 100%;
+        overflow: hidden;
+    }
+    .nochnicht {
+        padding-top: 20vw;
+        width: 90vw;
+        height: 80vh;
+        object-fit: contain;
+        box-shadow: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        place-items: center;
+        width: 100%;
+        height: 100%;
+        background: #dbd3bbd8;
+        z-index: 2;
+    }
+    #nochnichttext {
+        font-family: Bowlby One SC;
+        list-style-type: none;
+        color: #433825;
+        font-size: 4vw;
+        margin: -80vw 5vw 0 5vw;
+        line-height: 100%
+    }
+}*/
