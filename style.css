@@ -104,7 +104,7 @@ img,
 }
 
 #home {
-    background-image: url(../Bilder/Hintergrund.svg);
+    background-image: url(Bilder/Hintergrund.svg);
     background-position: center 0;
     background-size: cover;
     position: static;
