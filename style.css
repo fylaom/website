@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'bowlby_one_scregular';
-    src: url('../../webfonts/bowlbyonesc-webfont.eot');
-    src: url('../../webfonts/bowlbyonesc-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../../webfonts/bowlbyonesc-webfont.woff2') format('woff2'),
-        url('../../webfonts/bowlbyonesc-webfont.woff') format('woff'),
-        url('../../webfonts/bowlbyonesc-webfont.ttf') format('truetype'),
-        url('../../webfonts/bowlbyonesc-webfont.svg#bowlby_one_scregular') format('svg');
+    src: url('../webfonts/bowlbyonesc-webfont.eot');
+    src: url('../webfonts/bowlbyonesc-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/bowlbyonesc-webfont.woff2') format('woff2'),
+        url('../webfonts/bowlbyonesc-webfont.woff') format('woff'),
+        url('../webfonts/bowlbyonesc-webfont.ttf') format('truetype'),
+        url('../webfonts/bowlbyonesc-webfont.svg#bowlby_one_scregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -108,7 +108,7 @@ img,
 }
 
 #home {
-    background-image: url(../Bilder/Hintergrund.svg);
+    background-image: url(Bilder/Hintergrund.svg);
     background-position: center 0;
     background-size: cover;
     position: static;
