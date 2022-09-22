@@ -17,7 +17,7 @@ h2 {
     text-decoration: none;
     color: #433825;
     font-size: 82px;
-    font-family: Bowlby One SC;
+    font-family: 'Bowlby One SC';
     list-style-type: none;
     margin: 400px auto 0px auto;
 }
@@ -26,7 +26,7 @@ h3 {
     text-decoration: none;
     color: #433825;
     font-size: 82px;
-    font-family: Bowlby One SC;
+    font-family: 'Bowlby One SC';
     list-style-type: none;
     margin: 250px auto 0px auto;
 }
@@ -41,7 +41,7 @@ a:hover {
 }
 
 p {
-    font-family: Bowlby One SC;
+    font-family: 'Bowlby One SC';
     list-style-type: none;
     color: #433825;
     margin: 0px 275px 0px 275px;
@@ -111,7 +111,7 @@ img,
 }
 
 #home h1 {
-    font-family: Bowlby One SC;
+    font-family: 'Bowlby One SC';
     color: #433825;
     margin: -15px auto 0px auto;
     padding: 22vw 0 0 0;
@@ -303,7 +303,7 @@ footer {
 }
 
 footer p {
-    font-family: Bowlby One SC;
+    font-family: 'Bowlby One SC';
     font-size: 20px;
     color: #CABA9F;
     padding-top: 25px;
@@ -329,7 +329,7 @@ footer p {
         text-decoration: none;
         color: #433825;
         font-size: 100px;
-        font-family: Bowlby One SC;
+        font-family: 'Bowlby One SC';
         list-style-type: none;
         letter-spacing: 5px;
         margin: 400px auto 0px auto;
