@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'bowlby_one_sc';
+    src: url('webfonts/bowlbyonesc-webfont.eot');
+    src: url('webfonts/bowlbyonesc-webfont.eot?#iefix') format('embedded-opentype'), url('webfonts/bowlbyonesc-webfont.woff2') format('woff2'), url('webfonts/bowlbyonesc-webfont.woff') format('woff'), url('webfonts/bowlbyonesc-webfont.ttf') format('truetype'), url('webfonts/bowlbyonesc-webfont.svg#bowlby_one_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html,
 body {
     margin: 0;
