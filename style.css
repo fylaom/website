@@ -1,11 +1,7 @@
 @font-face {
     font-family: 'bowlby_one_scregular';
     src: url('../webfonts/bowlbyonesc-webfont.eot');
-    src: url('../webfonts/bowlbyonesc-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../webfonts/bowlbyonesc-webfont.woff2') format('woff2'),
-        url('../webfonts/bowlbyonesc-webfont.woff') format('woff'),
-        url('../webfonts/bowlbyonesc-webfont.ttf') format('truetype'),
-        url('../webfonts/bowlbyonesc-webfont.svg#bowlby_one_scregular') format('svg');
+    src: url('../webfonts/bowlbyonesc-webfont.eot?#iefix') format('embedded-opentype'), url('../webfonts/bowlbyonesc-webfont.woff2') format('woff2'), url('../webfonts/bowlbyonesc-webfont.woff') format('woff'), url('../webfonts/bowlbyonesc-webfont.ttf') format('truetype'), url('../webfonts/bowlbyonesc-webfont.svg#bowlby_one_scregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,25 +13,69 @@ body {
     text-align: center;
 }
 
-h2 {
-    text-decoration: none;
-    color: #433825;
-    font-size: 82px;
-    font-family: 'bowlby_one_scregular';
-    list-style-type: none;
-    margin: 400px auto 0px auto;
+#home {
+    background-image: url(Bilder/Hintergrund.svg);
+    background-color: #CABA9F;
+    background-position: center 0;
+    background-size: cover;
+    position: relative;
 }
 
-h3 {
+#home,
+img,
+#email {
+    /* hover dings */
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transion: all 300ms;
+    -o-transition: all 300ms;
+}
+
+
+/* ----- ----- ----- SCHRIFTARTEN ----- GRÖßEN ----- ----- -----*/
+
+h1 {
+    font-family: 'bowlby_one_scregular';
+    color: #433825;
+    margin: -15px auto 0px auto;
+    padding: 21vw 0 0 0;
+    font-size: 125px;
+    letter-spacing: 10px;
+    line-height: 220px;
+}
+
+h2 {
+    /* kleine überschriften */
     text-decoration: none;
     color: #433825;
     font-size: 82px;
     font-family: 'bowlby_one_scregular';
     list-style-type: none;
-    margin: 250px auto 0px auto;
+    margin: 300px auto 0px auto;
+    position: relative;
+    z-index: 1;
 }
+
+#h2 {
+    margin-top: 70vh;
+}
+
+p {
+    /* kleiner text */
+    font-family: 'bowlby_one_scregular';
+    list-style-type: none;
+    color: #433825;
+    margin: 0px 275px 0px 275px;
+    font-size: 36px;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* ----- ----- ----- A ----- ----- ----- -----*/
 
 a {
+    /* links (werden unterstrichen) */
     color: #463925;
     text-decoration: none;
 }
@@ -44,117 +84,130 @@ a:hover {
     text-decoration: underline;
 }
 
-p {
-    font-family: 'bowlby_one_scregular';
-    list-style-type: none;
-    color: #433825;
-    margin: 0px 275px 0px 275px;
+
+/* ----- ----- ----- MENU ----- ----- ----- -----*/
+
+.streifen {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    height: calc(100% - (21vw - 15px + 220px));
+    overflow: hidden;
+    width: 100%;
+    z-index: 0;
 }
 
-.ged {
-    margin: -20px 0px 0px 0px;
-    font-size: 36px;
+.streifen>div {
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    padding: 35px;
+    height: 2000vh;
 }
 
-.text {
-    font-size: 36px;
+.rot {
+    background-color: #d77b68;
 }
+
+.gelb {
+    background-color: #d8a569;
+}
+
+.grün {
+    background-color: #87a086;
+}
+
+.blau {
+    background-color: #7c948a;
+}
+
+#insta,
+#art,
+#mail,
+#discord {
+    /* icon */
+    z-index: 1;
+    width: 3vw;
+    height: 3vw;
+}
+
+
+/* ----- ----- ----- INSTGRAM ----- ----- ----- -----*/
+
+.telefon {
+    /* telefon */
+    margin: 0px 0px 0px 0px;
+    position: relative;
+}
+
+#tele1 {
+    /* telefon unten */
+    height: 15vw;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    padding-bottom: 7vh;
+    pointer-events: none;
+}
+
+#tele2 {
+    /* telefon oben */
+    height: 15vw;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 7vh;
+}
+
+
+/* ----- ----- ----- EMAIL ----- ----- ----- -----*/
 
 #email {
+    /* nur adresse */
     font-size: 30px;
     display: inline-block;
     margin-bottom: 7vh;
+    position: relative;
+    z-index: 1;
 }
 
 #email:hover {
     transform: scale(1.05);
 }
 
-#insta,
-#discord,
-#mail,
-#twitter {
-    width: 3vw;
-    height: 6vh;
-    object-fit: contain;
-}
 
-#home,
-li,
-img,
-#email,
-.pic3 {
-    transition: all 300ms;
-    -webkit-transition: all 300ms;
-    -moz-transion: all 300ms;
-    -o-transition: all 300ms;
-}
-
-.nochnicht {
-    display: none;
-}
-
-
-/* HOME **************************************************************/
-
-.nochnichtfertig {
-    padding-top: 25vh;
-    pointer-events: none;
-}
-
-#nochnichttextfertig {
-    margin-top: 30px;
-    font-size: 30px;
-}
-
-#home {
-    background-image: url(Bilder/Hintergrund.svg);
-    background-position: center 0;
-    background-size: cover;
-    position: static;
-}
-
-#home h1 {
-    font-family: 'bowlby_one_scregular';
-    color: #433825;
-    margin: -15px auto 0px auto;
-    padding: 22vw 0 0 0;
-    font-size: 125px;
-    letter-spacing: 10px;
-}
+/* ----- ----- ----- BILDER ----- ----- ----- -----*/
 
 img:hover {
+    /* animation von bildern (icons und pics) */
     transform: translateY(5px);
 }
 
-#home ul {
-    padding-inline-start: 0;
-}
-
-#home ul li {
-    width: 4vh;
-    height: 10vw;
-    display: inline-block;
-    margin: 5vh 3vw 0 2.4vw;
-    text-align: center;
-}
-
 .pic {
+    /* kasette */
     margin: 0px 170px 200px -110px;
     width: 25vw;
+    position: relative;
+    z-index: 1;
 }
 
 .pic2 {
+    /* gameboy */
     margin: 176px -20px -40px -100px;
     width: 20vw;
+    position: relative;
+    z-index: 1;
 }
 
-.pic3 {
+.kekspic {
+    /* keks */
     margin: 150px 0px 0px 0px;
     width: 20vw;
+    position: relative;
+    z-index: 1;
 }
 
-.pic3:hover {
+.kekspic:hover {
     animation: rotate 2s;
     animation-iteration-count: infinite;
 }
@@ -225,29 +278,28 @@ img:hover {
     }
 }
 
-.pic4 {
-    margin: 20px 0px 0px 0px;
-}
-
 .telefon {
+    /* telefon */
     margin: 0px 0px 0px 0px;
     position: relative;
 }
 
 #tele1 {
+    /* telefon unten */
     height: 15vw;
     margin: 0;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     padding-bottom: 7vh;
     pointer-events: none;
 }
 
 #tele2 {
+    /* telefon oben */
     height: 15vw;
     margin: 0;
     position: relative;
-    z-index: 0;
+    z-index: 1;
     padding-bottom: 7vh;
 }
 
@@ -297,16 +349,18 @@ img:hover {
 }
 
 
-/* FOOTER **************************************************************/
+/* ----- ----- ----- FOOTER ----- ----- ----- -----*/
 
 footer {
     width: 100%;
     height: 70px;
     background-color: #433825;
     bottom: 0;
+    position: relative;
+    z-index: 2;
 }
 
-footer p {
+#pfooter {
     font-family: 'bowlby_one_scregular';
     font-size: 20px;
     color: #CABA9F;
@@ -315,191 +369,199 @@ footer p {
 }
 
 
-/* MEDIA QUERIES **************************************************************/
+/* ----- ----- ----- MEDIA ----- ----- ----- -----*/
 
-@media screen and (min-width:2000px) {
-    #home h1 {
-        margin: -15px auto 0px auto;
-        padding: 24vw 0 0 0;
-        font-size: 150px;
-        letter-spacing: 10px;
-    }
-    #home ul li {
-        display: inline-block;
-        margin: 2vh 3.3vw 0 2.3vw;
-        text-align: center;
-    }
-    h2 {
-        text-decoration: none;
-        color: #433825;
-        font-size: 100px;
-        font-family: 'bowlby_one_scregular';
-        list-style-type: none;
-        letter-spacing: 5px;
-        margin: 400px auto 0px auto;
-    }
-    .text {
-        font-size: 45px;
-    }
-}
-
-@media screen and (max-width:1600px) {
-    #home h1 {
-        margin: -15px auto 0px auto;
-        padding: 20vw 0 0 0;
-        font-size: 120px;
-        letter-spacing: 10px;
-    }
-    #home ul li {
-        display: inline-block;
-        margin: 5vh 2.2vw 0 2.2vw;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width:1100px) {
-    #home h1 {
-        margin: -15px auto 0px auto;
-        padding: 23vw 0 0 0;
-        font-size: 70px;
-        letter-spacing: 10px;
+@media screen and (max-width:1300px) {
+    h1 {
+        font-size: 90px;
     }
     #insta,
-    #discord,
+    #art,
     #mail,
-    #twitter {
-        width: 4.5vw;
-        height: 3.5vh;
-        object-fit: contain;
+    #discord {
+        /* icon */
+        width: 4vw;
+        height: 4vw;
     }
-    #home ul li {
-        display: inline-block;
-        margin: 3vh 2.5vw 0 1.4vw;
-        text-align: center;
+    .streifen {
+        gap: 15px;
+    }
+    .streifen>div {
+        padding: 18px;
+    }
+    h2 {
+        font-size: 80px;
+        margin: 175px auto 0px auto;
+    }
+    p {
+        margin: 0px 250px 0px 250px;
+        font-size: 32px;
+    }
+    #email {
+        font-size: 32px;
+    }
+    .kekspic {
+        margin: 50px 0px 0px 0px;
+        width: 25vw;
+    }
+    .pic {
+        margin: 0px 0px 200px -10px;
+        width: 30vw;
+    }
+    .pic2 {
+        margin: 120px 0px 0px 100px;
+        width: 25vw;
+    }
+    #tele1,
+    #tele2 {
+        height: 17vw;
+        padding-bottom: 10vh;
+    }
+    #pfooter {
+        font-size: 28px;
     }
 }
 
-@media screen and (max-width:800px) {
-    #home h1 {
-        margin: -15px auto 0px auto;
-        padding: 24vw 0 0 0;
-        font-size: 50px;
-        letter-spacing: 10px;
+@media screen and (max-width:1024px) {
+    #insta,
+    #art,
+    #mail,
+    #discord {
+        /* icon */
+        width: 6vw;
+        height: 6vw;
+    }
+    p {
+        margin: 0px 130px 0px 130px;
+        font-size: 32px;
+    }
+    #email {
+        font-size: 32px;
+    }
+    .kekspic {
+        /* keks */
+        margin: 50px 0px 0px 0px;
+        width: 30vw;
+    }
+    .pic {
+        margin: 0px 0px 200px -10px;
+        width: 35vw;
+    }
+    .pic2 {
+        margin: 120px 0px 0px 100px;
+        width: 30vw;
+    }
+    #tele1,
+    #tele2 {
+        height: 23vw;
+        padding-bottom: 7vh;
+    }
+    #pfooter {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 80px;
+    }
+    #insta,
+    #art,
+    #mail,
+    #discord {
+        /* icon */
+        width: 7vw;
+        height: 7vw;
+    }
+    .streifen {
+        gap: 15px;
+    }
+    .streifen>div {
+        padding: 25px;
     }
     h2 {
-        font-size: 45px;
-        margin: 50vh auto 0px auto;
+        font-size: 60px;
+        margin: 135px auto 0px auto;
     }
-    h3 {
-        font-size: 45px;
-        margin: 20vh auto 0px auto;
-    }
-    .text {
+    p {
+        margin: 0px 100px 0px 100px;
         font-size: 25px;
     }
     #email {
         font-size: 25px;
     }
-    p {
-        margin: 0px 10vw -1vh 10vw;
+    .kekspic {
+        /* keks */
+        margin: 50px 0px 0px 0px;
+        width: 30vw;
     }
-    #insta,
-    #discord,
-    #mail,
-    #twitter {
-        width: 4vw;
-        height: 3vh;
-        object-fit: contain;
+    .pic {
+        margin: 0px 0px 150px -10px;
+        width: 35vw;
     }
-    #home ul li {
-        display: inline-block;
-        margin: 1vh 1.4vw 0 1.3vw;
-        text-align: center;
+    .pic2 {
+        margin: 80px 0px 0px 80px;
+        width: 30vw;
     }
-}
-
-@media screen and (max-width:600px) {
-    #home h1 {
-        margin: -15px auto 0px auto;
-        padding: 24vw 0 0 0;
-        font-size: 40px;
-        letter-spacing: 10px;
+    #tele1,
+    #tele2 {
+        height: 22vw;
+        padding-bottom: 7vh;
     }
-    #insta,
-    #discord,
-    #mail,
-    #twitter {
-        width: 4vw;
-        height: 3vh;
-        object-fit: contain;
-    }
-    #home ul li {
-        display: inline-block;
-        margin: 3vh 0.7vw 0 0.9vw;
-        text-align: center;
+    #pfooter {
+        font-size: 20px;
     }
 }
 
-@media screen and (max-width:450px) {
-    #home h1 {
-        margin: -2vh auto 0px auto;
-        font-size: 35px;
-        letter-spacing: 10px;
+@media screen and (max-width:480px) {
+    h1 {
+        font-size: 50px;
+    }
+    #insta,
+    #art,
+    #mail,
+    #discord {
+        /* icon */
+        width: 9vw;
+        height: 9vw;
+    }
+    .streifen {
+        gap: 10px;
+    }
+    .streifen>div {
+        padding: 10px;
     }
     h2 {
-        font-size: 35px;
-        margin: 50vh auto 0px auto;
+        font-size: 40px;
+        margin: 135px auto 0px auto;
     }
-    h3 {
-        font-size: 35px;
-        margin: 20vh auto 0px auto;
-    }
-    .text {
+    p {
+        margin: 0px 20px 0px 20px;
         font-size: 20px;
     }
     #email {
-        font-size: 15px;
+        font-size: 20px;
     }
-    p {
-        margin: 0px 10vw 0px 10vw;
-    }
-    .pic {
-        margin: 4vh 30vw 0 10vw;
+    .kekspic {
+        /* keks */
+        margin: 50px 0px 0px 0px;
         width: 50vw;
     }
+    .pic {
+        margin: 30px 120px 0px 0px;
+        width: 55vw;
+    }
     .pic2 {
-        margin: 1vh -30vw 0 10vw;
-        width: 40vw;
+        margin: -10px 0px 0px 140px;
+        width: 50vw;
     }
-    .pic3 {
-        margin: 10vw 10vw 0px 10vw;
-        width: 40vw;
+    #tele1,
+    #tele2 {
+        height: 25vw;
+        padding-bottom: 8vh;
     }
-    #home ul li {
-        display: inline-block;
-        margin: 5vh 1.5vw 0 1.2vw;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width:380px) {
-    #home h1 {
-        padding: 15vh 0 0 0;
-        font-size: 35px;
-        letter-spacing: 10px;
-    }
-    #insta,
-    #discord,
-    #mail,
-    #twitter {
-        width: 6vw;
-        height: 5vh;
-        object-fit: contain;
-    }
-    #home ul li {
-        display: inline-block;
-        margin: 1vh 1.5vw 0 1vw;
-        text-align: center;
+    #pfooter {
+        font-size: 15px;
     }
 }
 
